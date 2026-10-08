@@ -1,0 +1,5 @@
+# 修复原生「未分组」新建会话按钮缺陷插件组合层：
+# 一行 Loader 插件 = 本包的宿主标记 + 通过 dsh.client 暴露的浏览器 UI 半边。
+- insert:
+    - id: fix-ungrouped-new-session
+      name: 'dsh-plugin-fix-ungrouped-new-session'
